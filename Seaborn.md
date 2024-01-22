@@ -5,6 +5,7 @@ import seaborn as sns
 either by
 sns.load_dataset()  # or by dataframe
 sns.lineplot(x=" ",y=" ", hue=" " ,style=" ",data= data,size=   ,palette= " " ,markers=["o" ,">"],dashes=False,legend=True)
+linestyle='--', linewidth=2, marker="^", markerfacecolor='none', markersize=8,markeredgecolor='b'
 
 ### PASS ANY alphabet in palette you willl get available palette style
 ### same for legend
